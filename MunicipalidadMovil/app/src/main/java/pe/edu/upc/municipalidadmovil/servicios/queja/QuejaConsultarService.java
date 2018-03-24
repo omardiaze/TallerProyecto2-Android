@@ -57,7 +57,7 @@ public class QuejaConsultarService extends AsyncTask<Void,Void,String> {
         String result = null;
 
         try {
-            String wsUrl = "http://34.208.240.207/municipalidadservice/QuejaService.svc/queja/" + correo + "/"+ estado;
+            String wsUrl = "http://34.208.77.240/municipalidadservice/QuejaService.svc/queja/" + correo + "/"+ estado;
             URL url = new URL(wsUrl);
 
             HttpURLConnection urlConnection = (HttpURLConnection)url.openConnection();
