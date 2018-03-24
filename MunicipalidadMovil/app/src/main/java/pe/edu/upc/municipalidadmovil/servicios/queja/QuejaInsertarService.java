@@ -51,7 +51,7 @@ public class QuejaInsertarService  extends AsyncTask<Void,Void,String> {
         int postDataLength = postdata.length;
 
         try {
-            String wsUrl = "http://34.208.240.207/municipalidadservice/QuejaService.svc/queja";
+            String wsUrl = "http://34.208.77.240/municipalidadservice/QuejaService.svc/queja";
 
             URL url = new URL(wsUrl);
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
