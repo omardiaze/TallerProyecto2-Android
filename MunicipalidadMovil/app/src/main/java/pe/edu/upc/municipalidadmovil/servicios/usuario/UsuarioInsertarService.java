@@ -60,7 +60,7 @@ public class UsuarioInsertarService extends AsyncTask<Void,Void,String> {
         int postDataLength = postdata.length;
 
         try {
-            String wsUrl = "http://34.208.240.207/municipalidadservice/usuarioService.svc/usuario";
+            String wsUrl = "http://34.208.77.240/municipalidadservice/usuarioService.svc/usuario";
 
             URL url = new URL(wsUrl);
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
