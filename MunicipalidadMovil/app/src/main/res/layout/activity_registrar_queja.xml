@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView10"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="pe.edu.upc.municipalidadmovil.RegistrarQuejaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/spnTipoQuejaN"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:hint="Descripción"
+            android:gravity="center_horizontal"
+            android:id="@+id/txtDescQuejaN"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_margin="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="subir foto"
+
+            android:textSize="20dp"
+            android:layout_marginBottom="20dp"/>
+
+        <ImageView
+            android:layout_width="280dp"
+            android:layout_height="280dp"
+            android:id="@+id/imgFotoQuejaN"
+            android:layout_gravity="center"
+            android:src="@drawable/nophoto"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="Tomar foto"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:id="@+id/btnTomarFotoQuejaN"/>
+
+            <Button
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="Subir foto"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:id="@+id/btnCargarFotoQuejaN"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/btnGuardarQuejaN"
+        android:text="Guardar"/>
+
+</LinearLayout>
+</ScrollView>

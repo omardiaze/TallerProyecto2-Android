@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">109498981264-al29854gfia7ddjegagvgpgfpvmdeci2.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://tallerepe-c0b0b.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">109498981264</string>
+    <string name="google_api_key" translatable="false">AIzaSyA72tNXnFclMXow0hIGKDaagAUgjpPcNJU</string>
+    <string name="google_app_id" translatable="false">1:109498981264:android:8f8d10539123a788</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA72tNXnFclMXow0hIGKDaagAUgjpPcNJU</string>
+    <string name="google_storage_bucket" translatable="false">tallerepe-c0b0b.appspot.com</string>
+    <string name="project_id" translatable="false">tallerepe-c0b0b</string>
+</resources>

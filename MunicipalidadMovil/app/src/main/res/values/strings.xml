@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MunicipalidadMovil</string>
+    <string name="title_activity_main_quejas">Quejas</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">Mapa</string>
+    <string name="title_activity_mapara_ver">Mapa</string>
+    <string name="title_activity_mapa_ver">Map</string>
+    <string name="title_activity_nueva_queja">Registrar Queja</string>
+    <string name="title_activity_main3">MainActivity3</string>
+    <string name="title_activity_restrigar_queja">RestrigarQuejaActivity</string>
+
+</resources>

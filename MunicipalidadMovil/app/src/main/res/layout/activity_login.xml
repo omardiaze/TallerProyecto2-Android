@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:layout_margin="20dp"
+    tools:context="pe.edu.upc.municipalidadmovil.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Correo"
+            android:textAlignment="textStart"
+            android:layout_margin="15dp"
+            android:id="@+id/txtCorreoLogin"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Password"
+            android:layout_margin="15dp"
+            android:inputType="textPassword"
+            android:id="@+id/txtPasswordLogin"
+            android:textAlignment="textStart"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/btnIngresarLogin"
+                android:text="Ingresar"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/btnRegistrarLogin"
+                android:text="Registrarse"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

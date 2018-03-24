@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_consultar"
+            android:icon="@drawable/consultar"
+            android:title="Consultar" />
+        <item
+            android:id="@+id/nav_Registrar"
+            android:icon="@drawable/add"
+            android:title="Registrar" />
+
+    </group>
+
+    <item android:title="Sistema">
+        <menu>
+            <item
+                android:id="@+id/nav_municipalidad"
+                android:icon="@drawable/aqui"
+                android:title="Municipalidad" />
+            <item
+                android:id="@+id/nav_salir"
+                android:icon="@drawable/salir"
+                android:title="Salir" />
+
+        </menu>
+    </item>
+
+</menu>
