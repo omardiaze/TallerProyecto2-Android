@@ -49,7 +49,7 @@ public class QuejaInsertarService  extends AsyncTask<Void,Void,String> {
         String jsonRequest = gson.toJson(queja);
         byte[] postdata = jsonRequest.getBytes(StandardCharsets.UTF_8);
         int postDataLength = postdata.length;
-
+ 
         try {
             String wsUrl = "http://34.208.77.240/municipalidadservice/QuejaService.svc/queja";
 
