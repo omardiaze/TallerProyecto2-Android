@@ -51,7 +51,7 @@ public class QuejaConsultarService extends AsyncTask<Void,Void,String> {
         progressDialog = ProgressDialog.show(httpContext, "downloading","please wait");
 
     }
-
+ 
     @Override
     protected String doInBackground(Void... voids) {
         String result = null;
