@@ -7,7 +7,7 @@ import pe.edu.upc.municipalidadmovil.modelo.Usuario;
 /**
  * Created by usuario on 16/02/2018.
  */
-
+ 
 public class UsuarioObtenerService  extends AsyncTask<String,Integer,Boolean> {
 
     Usuario usu ;
