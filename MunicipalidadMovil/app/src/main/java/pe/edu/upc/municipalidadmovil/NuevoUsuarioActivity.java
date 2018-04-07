@@ -62,7 +62,7 @@ public class NuevoUsuarioActivity extends AppCompatActivity {
     Button btnTomarFotoUsuarioN;
     Button btnGaleriaUsuarioN;
     Bitmap imageBitmap;
-
+  
     Spinner spnSexo;
     private FirebaseAuth mAuth;
     private StorageReference mStorage;
