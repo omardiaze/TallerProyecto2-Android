@@ -3,7 +3,7 @@ package pe.edu.upc.municipalidadmovil.modelo;
 /**
  * Created by usuario on 16/02/2018.
  */
- 
+  
 public class Queja {
 
     public Queja(int id, String tipo, String descripcion, String imagen, String correo, String fecreg, String estado, String direccion, String latitud, String longitud) {
