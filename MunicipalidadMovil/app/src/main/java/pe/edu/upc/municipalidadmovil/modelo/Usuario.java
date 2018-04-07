@@ -3,7 +3,7 @@ package pe.edu.upc.municipalidadmovil.modelo;
 /**
  * Created by usuario on 16/02/2018.
  */
-
+  
 public class Usuario {
     public Usuario(int id, String nombre, String apePat, String apeMat, String dni, String direccion, String latitud, String longitud, String fecNac, String sexo, String correo, String imagen) {
         Id = id;
